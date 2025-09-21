@@ -1,0 +1,40 @@
+FB page mange/
+├── main.py
+├── ui_main_window.py
+├── ui_styling.py
+├── ui_table_setup.py
+├── database/
+│   ├── __init__.py
+│   ├── connection.py
+│   ├── read.py
+│   └── write.py
+├── dialogs/
+│   ├── __init__.py
+│   ├── account.py
+│   ├── bulk_edit.py
+│   ├── bulk_page_dialogs.py
+│   ├── page.py
+│   ├── recycle_bin.py
+│   ├── schedule_dialogs.py
+│   ├── settings.py
+│   └── utility.py
+├── handlers/
+│   ├── __init__.py
+│   ├── account_dialogs.py
+│   ├── dialog_handler.py
+│   ├── main_handler.py
+│   ├── menu_handler.py
+│   ├── page_dialogs.py
+│   └── utility_dialogs.py
+├── ui_components/
+│   ├── __init__.py
+│   └── sortable_table.py
+├── utils/
+│   ├── __init__.py
+│   ├── logger_config.py
+│   └── settings_handler.py
+└── views/
+    ├── __init__.py
+    ├── split_view_loader.py
+    ├── unified_view_loader.py
+    └── view_utils.py
